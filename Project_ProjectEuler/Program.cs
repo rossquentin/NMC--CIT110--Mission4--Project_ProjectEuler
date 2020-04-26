@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Project_ProjectEuler
 {
-
     class Problems
     {
-        
-
         #region PROJECT EULER PROBLEM CALCULATIONS
 
         /// <summary>
