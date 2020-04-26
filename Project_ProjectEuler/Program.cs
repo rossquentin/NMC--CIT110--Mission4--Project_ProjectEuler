@@ -9,6 +9,8 @@ namespace Project_ProjectEuler
 
     class Problems
     {
+        #region PROJECT EULER PROBLEMS
+
         public int P001(int num)
         {
             int sum = 0;
@@ -130,6 +132,8 @@ namespace Project_ProjectEuler
 
             return primes.ToArray<long>();
         }
+
+        #endregion
     }
 
     class Program
@@ -141,7 +145,6 @@ namespace Project_ProjectEuler
             Console.WriteLine(problems.P005(40));
 
             Console.ReadKey();
-
         }
     }
 }
