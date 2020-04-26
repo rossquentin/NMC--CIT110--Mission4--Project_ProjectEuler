@@ -348,7 +348,9 @@ namespace Project_ProjectEuler
         {
             SetTheme();
 
+            DisplayWelcomeScreen();
             DisplayMainMenu();
+            DisplayClosingScreen();
         }
 
         static void SetTheme()
